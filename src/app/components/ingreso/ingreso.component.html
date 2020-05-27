@@ -1,0 +1,13 @@
+<div id="container">
+    <div id="nombre">
+        <div id="lata">
+            <img [src]=imagen alt="logo">
+        </div>
+        <div id="palabra">
+            Ingreso
+        </div>
+    </div>
+    <input type="text" placeholder="nombre" #nombre id="nom">
+    <input type="password" placeholder="contraseña" #contra id="con">
+    <input type="submit" (click)="validar(nombre.value,contra.value)">
+</div>

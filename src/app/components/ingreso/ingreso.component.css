@@ -1,0 +1,64 @@
+#container{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 20%;
+    height: 310px;
+    margin-top:0.5%;
+    margin-left:1%;
+    margin-right:2.5%;
+    border-radius: 10px;
+    float: left;
+}
+
+#nombre{
+    background-color: rgba(255, 0, 0, 0.9);
+    width: 90%;
+    height: 20%;
+    margin-top:2%;
+    margin-left: 5%;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    float: left;
+}
+#lata{
+    width: 20%;
+    height: 90%;
+    margin-top: 1%;
+    margin-left: 15%;
+    float:left;
+}
+
+img{
+    width: 50%;
+    height: 95%;
+    margin-left: 10%;
+    margin-right: 10%;    
+}
+
+img:hover{
+    transform: rotate(45deg);
+}
+
+#palabra{
+    width: 60%;
+    height: 90%;
+    margin-top: 5%;
+    font-size: xx-large;
+    float:left;
+}
+
+input{
+    background-color: transparent;
+    width: 90%;
+    height: 20%;
+    margin-top:2%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 10px;;
+    float: left;
+}
+
+input:hover{
+    transform: scale(1.05);
+}

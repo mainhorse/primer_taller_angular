@@ -1,0 +1,58 @@
+#container{
+    background-image: url(../../../assets/img/footer_cerveza.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 95%;
+    height: 120px;
+    margin-top: 0.5%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    filter: opacity(0.85);
+    float: left;
+}
+
+#contactos{
+    width: 25%;
+    height: 100%;
+    margin-left: 15%;
+    float: left;
+}
+
+#tiendas{
+    width: 10%;
+    height: 100%;
+    margin-left: 5%;
+    float: left;
+}
+
+#horarios{
+    width: 17%;
+    height: 100%;
+    margin-left: 5%;
+    float: left;
+}
+
+#redes{
+    width: 20%;
+    height: 100%;
+    margin-left: 3%;
+    float: left;
+}
+.redBotella{
+    width: 15%;
+    height: 90%;
+    margin-top: 2%;
+    margin-right: 9%;
+    float: left;
+}
+
+.redBotella:hover{
+    transform: rotate(-15deg);
+}
+p{
+    width: 100%;
+    height: 10%;
+    color:white;
+    padding: 1%;
+    font-size: medium;
+}

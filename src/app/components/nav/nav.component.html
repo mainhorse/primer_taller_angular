@@ -1,0 +1,14 @@
+<div id="container">
+    <ul>
+        <li><a routerLink="/">Dcompany</a></li>
+        <li (mouseover) = "mostar($event)" (mouseout)="esconder($event)">Productos 
+            <ul id="ulLista" (mouseover) = "mostar($event)" (mouseout)="esconder($event)">
+                <li class="lista"><a routerLink="/botella">Botellas</a></li>
+                <li class="lista"><a routerLink="/lata">Latas</a></li>
+                <li class="lista"><a routerLink="/barril">Barril</a></li>
+            </ul>
+        </li>
+        <li><a routerLink="/registro">Registro</a></li>
+        <li><a routerLink="/ingreso">Ingreso</a></li>
+    </ul>
+</div>
